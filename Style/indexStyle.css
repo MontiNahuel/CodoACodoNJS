@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.inicio {
+    background-image: url(/images/imagen_portada_index.jpeg);
+    background-size: cover;
+    background-position: center center;
+    padding: 16rem 0;
+    display: flex;
+    align-items: end;
+    flex-flow: column;
+    justify-content: center;
+}
+.inicio h1 {
+    /*
+    margin: 31rem 4rem .5rem 0rem;
+    */
+    color: bisque;
+    font-size: 6rem;
+    font-weight: 200;
+    font-family: 'Great Vibes', cursive;
+    position: relative;
+
+}
+
+.inicio h3 {
+    /*
+    margin: 0rem 4rem 4rem 0rem;
+    */
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin: 1rem 4rem 8rem 4rem;
+    position: relative;
+    font-family: 'Dongle', sans-serif;
+}

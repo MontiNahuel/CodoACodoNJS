@@ -1,0 +1,36 @@
+body header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    padding: 5px 10%;
+    top: 0;
+}
+
+body header div img {
+    height: 55px;
+    width: auto;
+}
+
+body header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body header nav ul li {
+    margin: 0 1rem;
+    display: inline-block;
+}
+
+body header nav ul li a{
+    text-decoration: none;
+    transition: .3s;
+}
+
+body header nav ul li a:hover {
+    color: blue;
+}
