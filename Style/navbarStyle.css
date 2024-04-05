@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
 body header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(255, 255, 255);
+    background-color: #a08885; /*Para cambiar el color*/
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -28,9 +30,19 @@ body header nav ul li {
 
 body header nav ul li a{
     text-decoration: none;
-    transition: .3s;
+    color: #423f3f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    transition: .5s;
+    border-bottom: 2px solid rgba(3, 1, 0, 0);
 }
 
 body header nav ul li a:hover {
-    color: blue;
+    color: #030100; /*Para cambiar el color cuando se pasa por encima de un elemento*/
+    border-bottom: #030100 2px solid;
+}
+
+body header nav ul li a:focus {
+    border-bottom: #030100 2px solid;
 }
